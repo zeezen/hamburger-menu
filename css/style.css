@@ -1,0 +1,255 @@
+*{
+    background-color: #151925;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+}
+/* SECTION HEADER */
+.header {
+    background-color: #181424;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content, .header-content img, .header-content h1, .navbar, .navbar a, .hamenu, .hamenu i {
+    background-color: #181424;
+}
+
+.header-content {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.header-content h1 {
+    margin-left: 14px;
+    font-family: 'Sen', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.navbar {
+    float: right;
+    display: flex;
+}
+
+.navbar a {
+    margin-left: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #01EEFF;
+}
+
+span{
+    color: #01EEFF;
+}
+
+.sidebar {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #181424;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.close-menu {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 180px;
+    font-size: 32px;
+    width: 100%;
+    background-color: #181424;
+}
+
+.close-menu i{
+    background-color: #181424;
+}
+
+.close-menu a:hover i {
+    color: #01EEFF;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #181424;
+}
+
+.sidebar a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #181424;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.sidebar a:hover {
+    color: #01EEFF;
+}
+
+.close-ham {
+    align-items: flex-start;
+    width: 100%;
+}
+
+.close-ham a:hover{
+    color: #01EEFF;
+}
+
+.hamenu {
+    font-size: 48px;
+    display: none;
+}
+
+/* SECTION HEADER */
+/* SECTION HOME */
+.home {
+    padding: 0;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.home-content {
+    margin-right: 80px;
+}
+
+.home-content p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.home-content h1 {
+    font-family: 'Sen', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.home-content h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    max-width: 500px;
+    height: auto;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin-right: 20px;
+}
+
+.social-media i {
+    font-size: 32px;
+    color: #01EEFF;
+}
+
+.home-foto {
+    margin-left: 80px;
+}
+
+
+.home-foto img{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 400px;
+}
+/* SECTION HOME */
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    /* SECTION HEADER */
+    .header {
+        padding: 0 20px;
+    }
+
+    .header-content {
+        margin-right: auto;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .hamenu {
+        font-size: 48px;
+        display: block;
+    }    
+    /* SECTION HEADER */
+
+    /* SECTION HOME */
+    .home {
+        margin: 40px; 
+        padding: 0 20px;
+    }
+
+    .home-content {
+        margin-right: 10px;
+    }
+
+    .home-foto{
+        margin-left: 10px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .home-content h1 {
+        font-size: 34px;
+    }
+
+    .home-content h3 {
+        font-size: 10px;
+    }
+
+    .social-media {
+        margin-top: 10px;
+    }
+    
+    .social-media a {
+        margin-right: 10px;
+    }
+    
+    .social-media i {
+        font-size: 18px;
+    }
+    /* SECTION HOME */
+}
